@@ -7,7 +7,8 @@ using Oxide.Core.Libraries.Covalence;
 
 namespace Oxide.Plugins
 {
-    [Info("Welcome Plugin", "Cloner", "0.0.1")]
+    [Info("Welcome Plugin", "Cloner", "0.0.2")]
+    [Description("Welcomes players to your server with completely customizable messages!")]
     internal class Welcome : CovalencePlugin
     {
         
