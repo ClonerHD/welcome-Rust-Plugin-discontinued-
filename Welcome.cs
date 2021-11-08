@@ -7,7 +7,7 @@ using Oxide.Core.Libraries.Covalence;
 
 namespace Oxide.Plugins
 {
-    [Info("Welcome Plugin", "Cloner", "0.0.2")]
+    [Info("Welcome Plugin", "Cloner", "0.0.3")]
     [Description("Welcomes players to your server with completely customizable messages!")]
     internal class Welcome : CovalencePlugin
     {
@@ -25,7 +25,7 @@ namespace Oxide.Plugins
             Config["DisconnectMessage"] = "{0} disconnected";
         }
 		
-		#end
+		#endregion
 		
 		#region Functions
 		
@@ -62,7 +62,7 @@ namespace Oxide.Plugins
             PrintToChat(target, string.Format(GetConfig("ConnectMessage", "&a{0} connected"), target.displayName), GetConfig("ConnectColor", "#00FF00"));
         }
 		
-        #end
+        #endregion
 		
     }
 }
