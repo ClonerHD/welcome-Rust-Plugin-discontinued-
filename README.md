@@ -6,8 +6,6 @@ This Plugin greets and says goodbye to any player who joins your server. You can
 
 #Permissions
 
-oxide.grant <user or group> <name or steam id> <permission>
-
 *`debug.use`
   
   
